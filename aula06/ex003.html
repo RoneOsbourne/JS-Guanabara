@@ -21,9 +21,18 @@
     <h1>Hello, World!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        alert('My first message!') //caixa mensagem normal
-        confirm('Do you like JS?') //caixa confirmação OK-CANCEL
-        prompt('Whats your name?') //caixa entrada dados, sem armazenamento ainda
+        var n1 = Number.parseFloat(prompt('Digite um número: ')) //prompt grava sempre em string
+        var n2 = Number.parseFloat(prompt('Digite outro numero')) // a soma entre string concatena, precisa transformar em number
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é de ${s}`)
+
+        /*var estudante {
+            nome = "Rone"
+            idade = 36
+            nota = 10
+        }
+        alert(`O aluno ${nome}, com ${idade} anos tirou nota ${nota}`)*/
+        //Acima exemplo não rodando de template strings com placeholder ${}
     </script>
 </body>
 </html>

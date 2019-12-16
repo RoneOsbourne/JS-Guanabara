@@ -1,0 +1,20 @@
+= 'recebe'
+após variavel receber valor, diz-se que foi atribuido
+Em string pode usar "", '' e ``
+Nome de variavel = identificador
+JS não diferencia numeros inteiros de float, todos são numbers
+
+Prompt transforma input em string por padrão
+Para receber numeros para calculos, fazer o Number.parseInt na entrada dos dados
+
+Templates Strings = `Eu estou aprendendo ${s}`
+-> Para usar template string, deve-se usar crase.
+-> O conjunto '${}' chama-se placeholder (espaço reservado)
+
+var s = 'Javascript'
+'Eu estou aprendendo' + s //faz concatenação
+`Eu estou aprendendo ${s}` // usa template string
+s.lenght // quantos caracteres tem a string
+s.toUpperCase //caixa alta
+s.toLowerCase //caixa baixa
+ 
