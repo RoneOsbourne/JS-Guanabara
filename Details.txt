@@ -17,4 +17,43 @@ var s = 'Javascript'
 s.lenght // quantos caracteres tem a string
 s.toUpperCase //caixa alta
 s.toLowerCase //caixa baixa
- 
+
+var n1 = 1545.5
+n1.toFixed(2) //aumenta para 2 casa decimais
+n1.toFixed(2).replace('.' , ',') //altera de . para ,
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //para inserir sifrão da moeda
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) //para dolar
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //para euro
+
+5 / 2 = 2.5
+5 % 2 = 1 (resto de operação)
+5 ** 2 = 25 (eleva ao quadrado)
+
+Regra de precedencia matematica do JS
+
+() - parenteses
+** - potencialização
+* / % - multiplicação, divisão e resto da divisão
++ - soma e substração
+
+AUTO ATRIBUIÇÃO
+var n = 3
+n = n + 4 //7
+
+ou 
+n += 4 //7
+n -= 3 //0
+n *= 2 //6
+
+OPERADOR DE INCREMENTO
+var n = 10
+n++ //mostra n e faz um incremento
+n //mostra n atual = 11
+
+n-- //mostra n (11) e faz decremento
+n //mostra n atual (10)
+
+++n //faz incremento e mostra n
+
+
