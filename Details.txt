@@ -56,4 +56,23 @@ n //mostra n atual (10)
 
 ++n //faz incremento e mostra n
 
+IDENTIDADE
+5 == 5 //true
+5 == '5' //true
+5 === '5' //false - avalia o valor e o tipo (identificador restrito)
+
+LÓGICOS
+! negação (not)
+&& conjunção (and)
+|| disjunção (ou)
+
+-> Em uma mesma sentença (a > b && b % 2 == 0)
+PRIMEIRO OPERADORES ARITMETICOS
+SEGUNDO OPERADORES RELACIONAIS
+TERCEIRO OPERADORES LOGICOS
+
+-> Ordem dos operadores logicos
+NÃO (!)
+E (&&)
+OU (||)
 
