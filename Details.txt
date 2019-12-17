@@ -76,3 +76,16 @@ NÃO (!)
 E (&&)
 OU (||)
 
+OPERADOR TERNARIO (dentro mesma expressão)
+teste ? true : false
+?
+:
+
+faz o teste, mostra resultado em caso positivo, senão negativo
+
+COMANDOS GIT
+Analisando diferenças: git diff
+Avaliando alterações: git log
+Visualizando objetos: git show
+Guardando alterações temporariamente: git stash
+Copiando e colando commits: git cherry-pick
